@@ -94,8 +94,7 @@ def main(page: flet.Page):
                     ),
                     opacity_on_click=0.3,
                     on_click=lambda e: (
-                        pick_files_dialog.pick_files(allowed_extensions=["*.GGUF"]),
-                        print("Button 1 clicked!"),
+                        pick_files_dialog.pick_files(allowed_extensions=["*gguf"])
                     ),
                 ),
             ],
